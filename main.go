@@ -9,5 +9,5 @@ func init() {
 }
 
 func main() {
-	print_time.Print_dt()
+	print_time.PrintDt()
 }
