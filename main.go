@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	print_time "github.com/AirArto/hw-1"
+	hw "github.com/AirArto/hw-1"
 )
 
 func init() {
@@ -12,9 +12,9 @@ func init() {
 }
 
 func main() {
-	data, err := print_time.PrintDt()
+	data, err := hw.Do()
 	if err == nil {
-		fmt.Printf("Requested data: %s\n", data)
+		fmt.Println("Requested data:", data)
 	} else {
 		log.Println("Data displaying error: \n\t", err)
 	}

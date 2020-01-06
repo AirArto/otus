@@ -1,7 +1,5 @@
-github.com/AirArto/hw-1 v0.0.0-20191210124558-e966a0eb0e85 h1:fo4fe/a0ZK+SgUaMDylO2s2HkqrTd3DvyR/Gw/9zodQ=
-github.com/AirArto/hw-1 v0.0.0-20191210124558-e966a0eb0e85/go.mod h1:bVJi/DDUFoENWhndgRlNA7nLAKKtZVvieDsmXYTaCls=
-github.com/AirArto/hw-1 v0.0.0-20200105171823-4957b843d905 h1:RST3Ln1CF6NelMkQttQj3ELgknxg+nKeHveTEx7HBEw=
-github.com/AirArto/hw-1 v0.0.0-20200105171823-4957b843d905/go.mod h1:bVJi/DDUFoENWhndgRlNA7nLAKKtZVvieDsmXYTaCls=
+github.com/AirArto/hw-1 v0.0.0-20200106044242-5192691c34c7 h1:pyosOw9rqy9hsvNBh8wP+F1cJHX4DS54TeiE5aI4FeY=
+github.com/AirArto/hw-1 v0.0.0-20200106044242-5192691c34c7/go.mod h1:bVJi/DDUFoENWhndgRlNA7nLAKKtZVvieDsmXYTaCls=
 github.com/beevik/ntp v0.2.0 h1:sGsd+kAXzT0bfVfzJfce04g+dSRfrs+tbQW8lweuYgw=
 github.com/beevik/ntp v0.2.0/go.mod h1:hIHWr+l3+/clUnF44zdK+CWW7fO8dR5cIylAQ76NRpg=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
