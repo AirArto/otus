@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	hw "github.com/AirArto/hw-1"
+	hw "github.com/AirArto/hw-2"
 )
 
 func init() {
