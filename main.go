@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"log"
 
 	hw "github.com/AirArto/hw-2"
 )
@@ -12,10 +11,16 @@ func init() {
 }
 
 func main() {
-	data, err := hw.Do()
-	if err == nil {
-		fmt.Println("Requested data:", data)
-	} else {
-		log.Println("Data displaying error: \n\t", err)
+	PackedArr := []string{"a4bc2d5e", "abcd", "45", "qwe\\4\\5", "qwe\\45", "qwe\\\\5", "\\\\54", ""}
+
+	fmt.Println("Requested data:")
+	for _, str := range PackedArr {
+		UnpackedStr, err := hw.Do(str)
+		fmt.Println("\tPacked string: ", str)
+		if err == nil {
+			fmt.Println("\tUnpacked string: ", UnpackedStr)
+		} else {
+			fmt.Println("\tError: ", err)
+		}
 	}
 }
