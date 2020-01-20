@@ -2,9 +2,8 @@ package main
 
 import (
 	"fmt"
-	"log"
 
-	hw "github.com/AirArto/hw-1"
+	hw "github.com/AirArto/hw-4"
 )
 
 func init() {
@@ -12,10 +11,13 @@ func init() {
 }
 
 func main() {
-	data, err := hw.Do()
-	if err == nil {
-		fmt.Println("Requested data:", data)
-	} else {
-		log.Println("Data displaying error: \n\t", err)
-	}
+	newList := hw.List{}
+	slice := newList.ToSlice()
+	fmt.Println("Requested data:", slice)
+	newList.PushFront("second")
+	newList.PushFront("first")
+	newList.PushBack("third")
+	newList.PushBack("last")
+	slice = newList.ToSlice()
+	fmt.Println("Requested data:", slice)
 }
