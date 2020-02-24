@@ -2,8 +2,6 @@ package main
 
 import (
 	"errors"
-	"fmt"
-	"log"
 
 	hw "github.com/AirArto/hw-5"
 )
@@ -35,10 +33,5 @@ func main() {
 		func() error { return nil },
 	}
 	tasks := taskList[:]
-	err := hw.Run(tasks, 4, 7)
-	if err == nil {
-		fmt.Println("It's OK")
-	} else {
-		log.Println("Data displaying error: \n\t", err)
-	}
+	_ = hw.Run(tasks, 3, 5)
 }
